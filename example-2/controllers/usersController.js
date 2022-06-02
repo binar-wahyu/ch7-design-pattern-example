@@ -1,53 +1,51 @@
 const { User } = require("../models");
 
-module.exports = {
-  apiIndex: (req, res) => {
-    const users = []; // Ceritanya data user
-    res.json(users);
-  },
+exports.apiIndex = (req, res) => {
+  const users = []; // Ceritanya data user
+  res.json(users);
+};
 
-  apiStore: (req, res) => {
-    // Ceritanya nyimpen data user
-  },
+exports.apiStore = (req, res) => {
+  // Ceritanya nyimpen data user
+};
 
-  apiShow: (req, res) => {
-    const user = {}; // Ceritanya data user
-    res.json(user);
-  },
+exports.apiShow = (req, res) => {
+  const user = {}; // Ceritanya data user
+  res.json(user);
+};
 
-  apiUpdate: (req, res) => {
-    // Ceritanya update data user
-  },
+exports.apiUpdate = (req, res) => {
+  // Ceritanya update data user
+};
 
-  apiDestroy: (req, res) => {
-    // Ceritanya hapus data user
-  },
+exports.apiDestroy = (req, res) => {
+  // Ceritanya hapus data user
+};
 
-  index: (req, res) => {
-    res.render("users/index");
-  },
+exports.index = (req, res) => {
+  res.render("users/index");
+};
 
-  create: (req, res) => {
-    res.render("users/create");
-  },
+exports.create = (req, res) => {
+  res.render("users/create");
+};
 
-  store: (req, res) => {
-    // Ceritanya nyimpen data user
-  },
+exports.store = (req, res) => {
+  // Ceritanya nyimpen data user
+};
 
-  show: (req, res) => {
-    res.render("users/show");
-  },
+exports.show = (req, res) => {
+  res.render("users/show");
+};
 
-  edit: (req, res) => {
-    res.render("users/edit");
-  },
+exports.edit = (req, res) => {
+  res.render("users/edit");
+};
 
-  update: (req, res) => {
-    // Ceritanya update data user
-  },
+exports.update = (req, res) => {
+  // Ceritanya update data user
+};
 
-  destroy: (req, res) => {
-    // Ceritanya hapus data user
-  },
+exports.destroy = (req, res) => {
+  // Ceritanya hapus data user
 };

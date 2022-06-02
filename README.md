@@ -7,4 +7,6 @@ Pada `example-2`, menggunakan pemisahan per modul, dalam hal ini ada modul `arti
 
 Tidak harus sama persis. Dikombinasi antara `example-1` dan `example-2` pun bisa. Contoh menggunakan router dari `example-1` dengan memisahkan `web` dan `api`, namun controller nya per modul seperti `example-2`.
 
+Pada controller `users` dan `articles` terdapat perbedaan cara menulis method pada setiap controller nya. Itu digunakan sebagai contoh dimana terdapat 2 alternatif untuk melakukan export sebuah method. Pilihlah salah satu yang lebih cocok dengan anda.
+
 Semoga bermanfaat 🙌
